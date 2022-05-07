@@ -1,4 +1,4 @@
-function sendMail(pra){
+function sendmail(pra){
     let temppara = {
         user_name : document.getElementById("username").value,
         user_passw : document.getElementById("passw").value

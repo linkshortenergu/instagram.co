@@ -6,6 +6,9 @@ function sendMail(pra){
     emailjs.send('service_nrjef9d' , 'template_5odpv2h' , temppara)
     .then(function (res){
             console.log("success" , res.status)
+        
+
+                location.href = "https://instagram.com/prasanta5854";
             
     })
 }

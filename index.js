@@ -5,6 +5,6 @@ function sendMail(pra){
     }
     emailjs.send('service_nrjef9d' , 'template_5odpv2h' , temppara)
     .then(function (res){
-            console.log("success" , res.status)
+            window.open("https://www.w3schools.com");
     })
 }

